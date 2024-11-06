@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes slide-left {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slide-right {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slide-top {
+    0% {
+        transform: translatey(100%);
+    }
+    100% {
+        transform: translatey(0);
+    }
+}
+
+.animate-slide-left {
+    display: inline-block;
+    animation: slide-left 1s ease forwards;
+}
+
+.animate-slide-right {
+    display: inline-block;
+    animation: slide-right 1s ease forwards;
+}
+
+.animate-slide-top {
+    animation: slide-top 1s ease forwards;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.div-blanco {
+    height: 550px;
+}
+
+.div-azul {
+    width: 100%;
+}
+
+.imagen-redonda {
+    width: 100px;          /* Ancho del contenedor */
+    height: 100px;         /* Alto del contenedor */
+    border-radius: 50%;    /* Hacerlo redondo */
+    overflow: hidden;       /* Ocultar el desbordamiento */
+}
