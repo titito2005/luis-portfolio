@@ -12,7 +12,7 @@ export const Certifications: React.FC = () => {
                     width={120}
                     height={120}
                 />
-                <div className="mx-8"></div>
+                <div className="mx-8 sm:mx-3"></div>
                 <Image
                     src="/aws.png"
                     alt="Descripción de la imagen"

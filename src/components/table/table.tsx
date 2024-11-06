@@ -4,8 +4,8 @@ import Image from 'next/image';
 export const Table: React.FC = () => {
     return (
         <div className="bg-white shadow-lg rounded-lg mx-auto mt-[120px]">
-            <div className="grid grid-cols-3">
-                <div className="border-r last:border-r-0 text-center p-12">
+            <div className="grid md:grid-cols-3 sm:grid-cols-1">
+                <div className="md:border-r text-center p-12">
                     <div className="flex justify-center items-center">
                         <div className="w-20 h-20 bg-second-color rounded-full flex justify-center items-center">
                             <Image
