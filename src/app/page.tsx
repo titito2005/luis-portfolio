@@ -49,6 +49,7 @@ export default function Home() {
       <div className="bg-slate-950 div-azul">
         <div className="flex flex-col justify-center items-center">
           <p className="text-white text-3xl mt-[280px]">Hi, I’m Luis. Nice to meet you.</p>
+          {/* eslint-disable-next-line react/no-unescaped-entities */}
           <p className="text-white text-xl w-[60%] mt-10">Since beginning my journey as a freelance designer 12 years ago, I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I'm quietly confident, naturally curious, and perpetually working on improving my chops.</p>
         </div>
         <div className="bg-white shadow-lg rounded-lg mt-[100px] w-3/4 mx-auto z-10">
