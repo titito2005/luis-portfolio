@@ -49,14 +49,6 @@
     font-style: normal;
 }
 
-.div-blanco {
-    height: 550px;
-}
-
-.div-azul {
-    width: 100%;
-}
-
 .imagen-redonda {
     width: 100px;          /* Ancho del contenedor */
     height: 100px;         /* Alto del contenedor */
